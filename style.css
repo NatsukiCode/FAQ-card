@@ -1,0 +1,44 @@
+/* reset CSS */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  /* general styling */
+  :root {
+    --clr-primary-veryDarkBlue: hsl(238, 29%, 16%);
+    --clr-primary-softRed: hsl(14, 88%, 65%);
+
+    --clr-gradient-softViolet: hsl(273, 75%, 66%);
+    --clr-gradient-softBlue: hsl(240, 73%, 65%);
+
+    --clr-neutral-darkGrayishBlue: hsl(237, 12%, 33%);
+    --clr-neutral-grayishBlue:  hsl(240, 6%, 50%);
+
+    --clr-dividers-lightGrayishBlue: hsl(240, 5%, 91%);
+
+    --ff: 'Kumbh Sans', sans-serif; 
+
+    --fw-bold: 700;
+    --fw-regular: 400;
+
+  }
