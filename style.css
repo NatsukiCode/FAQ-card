@@ -60,6 +60,7 @@
   .faq {
     background-color: white;
     padding: 1.5rem;
+    padding-bottom: 3rem;
     border-radius: 1.5rem;
   }
 
@@ -73,20 +74,20 @@
   .img-1,
   .img-2 {
     position: absolute;
+    top: -130px;
   }
 
   .img-1 {
     max-width: 230px;
-    
   }
 
   .img-2 {
-    top: 3px;
+    top: -30px;
   }
   
   .faq__heading {
     font-size: 1.9rem;
-    padding-top: 7.8rem;
+    padding-top: 6.3rem;
     padding-bottom: 0.7rem;
     text-align: center;
   }
@@ -100,6 +101,3 @@
     border-bottom: 1px solid var(--clr-dividers-lightGrayishBlue);
   }
   
-  .arrow {
-   
-  }
