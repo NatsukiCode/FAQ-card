@@ -51,13 +51,14 @@
 
   body {
     font-family: var(--ff);
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     background-color: var(--clr-gradient-softViolet);
     display: grid;
     place-content: center;
   }
 
   .faq {
+    max-width: 330px;
     background-color: white;
     padding: 1.5rem;
     padding-bottom: 3rem;
@@ -94,10 +95,28 @@
 
   .faq__item-box {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2.3rem;
+    flex-direction: column;
     padding: 1rem 0;
     border-bottom: 1px solid var(--clr-dividers-lightGrayishBlue);
   }
-  
+
+  .question-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .answer {
+    display: none;
+  }
+
+  .faq-btn {
+    border: none;
+    background-color: transparent;
+    margin-left: 0.75rem;
+    
+  }
+
+  /* when the buttons are clicked */
+  .show-answer .answer {
+    display: block;
+  }
