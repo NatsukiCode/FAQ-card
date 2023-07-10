@@ -113,10 +113,19 @@
     border: none;
     background-color: transparent;
     margin-left: 0.75rem;
-    
   }
 
   /* when the buttons are clicked */
   .show-answer .answer {
     display: block;
+    color: var(--clr-neutral-grayishBlue);
+  }
+
+  .question-styles {
+    font-weight: var(--fw-bold);
+    margin-bottom: 0.6rem;
+  }
+
+  @media(min-width: 330px) {
+    
   }

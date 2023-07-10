@@ -1,16 +1,19 @@
 const faqBox = document.querySelectorAll(".faq__item-box");
 
-faqBox.forEach(function(question){
+faqBox.forEach(question => {
 
 const button = question.querySelector(".faq-btn");
 
-button.addEventListener("click", function(){
-  faqBox.forEach(function (eachQuestion){
+button.addEventListener("click", ()=> {
+  faqBox.forEach(eachQuestion => {
     if(eachQuestion !== question){
       eachQuestion.classList.remove("show-answer");
+      eachQuestion.querySelector(".question").classList.remove("question-styles");
     }
   });
   question.classList.toggle("show-answer");
+  question.querySelector(".question").classList.toggle("question-styles");
+
 });
 });
 
