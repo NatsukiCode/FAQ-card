@@ -126,6 +126,31 @@
     margin-bottom: 0.6rem;
   }
 
-  @media(min-width: 330px) {
-    
+  .arrow {
+    transition: transform 0.5s ease;
+  }
+
+  .rotate-icon {
+    transform: rotate(180deg);
+  }
+
+  @media (min-width: 500px) {
+    .faq {
+      max-width: 800px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      
+    }
+
+    .faq__img {
+      
+    }
+
+    .img-1 {
+      display: none;
+    }
+
+    .faq__heading {
+      text-align: left;
+    }
   }

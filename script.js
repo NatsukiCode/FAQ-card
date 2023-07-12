@@ -3,6 +3,7 @@ const faqBox = document.querySelectorAll(".faq__item-box");
 faqBox.forEach(question => {
 
 const button = question.querySelector(".faq-btn");
+const arrowElement = question.querySelector(".arrow");
 
 button.addEventListener("click", ()=> {
   faqBox.forEach(eachQuestion => {
@@ -13,7 +14,7 @@ button.addEventListener("click", ()=> {
   });
   question.classList.toggle("show-answer");
   question.querySelector(".question").classList.toggle("question-styles");
+  arrowElement.classList.toggle("rotate-icon");
 
 });
 });
-
