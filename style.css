@@ -139,18 +139,19 @@
       max-width: 800px;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      
-    }
-
-    .faq__img {
-      
-    }
-
-    .img-1 {
-      display: none;
     }
 
     .faq__heading {
       text-align: left;
+    }
+
+    .img-1 {
+      top: 100px;
+      max-width: 370px;
+    }
+
+    .img-2 {
+      top: 200px;
+      right: 570px;
     }
   }
