@@ -15,6 +15,6 @@ button.addEventListener("click", ()=> {
   question.classList.toggle("show-answer");
   question.querySelector(".question").classList.toggle("question-styles");
   arrowElement.classList.toggle("rotate-icon");
-
+  
 });
 });
