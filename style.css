@@ -52,9 +52,10 @@
   
 
   body {
+    background: linear-gradient(10deg, var(--clr-gradient-softBlue),var(--clr-gradient-softViolet));
     font-family: var(--ff);
     font-size: 0.8rem;
-    background-color: var(--clr-gradient-softViolet);
+    /* background-color: var(--clr-gradient-softViolet); */
     display: grid;
     place-content: center;
   }
@@ -103,6 +104,11 @@
     border-bottom: 1px solid var(--clr-dividers-lightGrayishBlue);
   }
 
+.question:hover {
+  color: var(--clr-primary-softRed);
+  cursor: pointer;
+}
+
   .question-container {
     display: flex;
     justify-content: space-between;
@@ -131,7 +137,6 @@
       width: 480px;
       grid-column-start: 2;
       padding: 2rem 4rem;
-      
     }
 
     .faq__heading {
